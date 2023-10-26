@@ -8,7 +8,6 @@ btn.addEventListener('click', ()=>{
     const playerTwoRandNum = Math.floor(Math.random()*6)+1;
     img1.src=`images/${playerOneRandNum}.png`;
     img2.setAttribute('src', 'images/'+playerTwoRandNum+'.png');
-    console.log('images/'+playerTwoRandNum+'.png');
    
     if(playerOneRandNum > playerTwoRandNum){
         result.innerHTML = '🚩Player 1 Wins'
